@@ -1,3 +1,6 @@
+# to run the demo: streamlit run strmlt.py
+
+# To complete the task, I am going to need the following libraries:
 from math import prod
 from pandas.core.frame import DataFrame
 import streamlit as st
