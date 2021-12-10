@@ -1,0 +1,17 @@
+
+from ACBC import Conjoint
+
+
+example = {"Brand" : {"Brand 1" : 200, "Brand 2" : 150, "Brand 3" : 300},
+           "Attribute" :  {"Attribute A" : 20, "Attribute B" : 40, "Attribute C" : 70, "Attribute D" : 50},
+           "Ascribe" :  {"Ascribe A" : 2, "Ascribe B" : 5, "Ascribe C" : 7, "Ascribe D" : 6},
+           "Feature" :  {"Feature A" : 20, "Feature B" : 40, "Feature C" : 70, "Feature D" : 50},
+           "Characteristic" :  {"Characteristic A" : 120, "Characteristic B" : 140, "Characteristic C" : 270, "Characteristic D" : 50},
+           "Property" :  {"Property A" : 10, "Property B" : 24, "Property C" : 25, "Property D" : 35}
+      }
+
+def DEMO_function():
+    MyCnjoint = Conjoint(AttributesDictionary = example)
+
+
+DEMO_function()
