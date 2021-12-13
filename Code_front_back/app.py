@@ -1,6 +1,4 @@
-from math import prod
-from os import minor, pardir
-from attr import attrib, attributes
+
 from pandas.core.frame import DataFrame
 import streamlit as st
 import plotly.express as px
