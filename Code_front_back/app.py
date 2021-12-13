@@ -5,7 +5,6 @@ import plotly.express as px
 import numpy as np
 import pandas as pd
 import base64
-#import lightgbm as lgb
 from sklearn.metrics import accuracy_score
 from sklearn.preprocessing import StandardScaler
 from sklearn.linear_model import LogisticRegression
@@ -24,7 +23,7 @@ class ACBC:
         self.dataf = None
 
     def Enzyme(self):
-        #st.set_page_config('Adaptive Conjoint')
+
 
         if not self.button_Screening:
             if self.BYO_called == False:
@@ -41,6 +40,7 @@ class ACBC:
             self.ChoicTaskTournament()
 
     def BuildYourOwn(self):
+        st.set_page_config('Adaptive Conjoint')
         self.BYO_called = True
 
         st.title("Build Your Own")
